@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4273930220877CD700977FA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4273930120877CD700977FA7 /* AppDelegate.swift */; };
+		4273930420877CD700977FA7 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4273930320877CD700977FA7 /* MainViewController.swift */; };
+		4273930720877CD700977FA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4273930520877CD700977FA7 /* Main.storyboard */; };
+		4273930920877CD800977FA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4273930820877CD800977FA7 /* Assets.xcassets */; };
+		4273930C20877CD800977FA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4273930A20877CD800977FA7 /* LaunchScreen.storyboard */; };
+		4273931A2087985E00977FA7 /* MBCircularProgressBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 427393162087985E00977FA7 /* MBCircularProgressBarView.m */; };
+		4273931B2087985E00977FA7 /* MBCircularProgressBarLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 427393192087985E00977FA7 /* MBCircularProgressBarLayer.m */; };
+		4273931E2087A75700977FA7 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4273931D2087A75700977FA7 /* GradientView.swift */; };
+		427A8D2320DD379600347FF9 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427A8D2220DD379600347FF9 /* BaseModel.swift */; };
+		42F5332F209F4038009D9CE1 /* BorderedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F5332E209F4038009D9CE1 /* BorderedButton.swift */; };
+		42F53332209F42AF009D9CE1 /* MonthlyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F53331209F42AF009D9CE1 /* MonthlyViewController.swift */; };
+		42F53334209F42C2009D9CE1 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F53333209F42C2009D9CE1 /* UserProfileViewController.swift */; };
+		42F53336209F42D1009D9CE1 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F53335209F42D1009D9CE1 /* SettingsViewController.swift */; };
+		42F53338209F4917009D9CE1 /* NewTransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F53337209F4917009D9CE1 /* NewTransactionViewController.swift */; };
+		FEC37A9FD3885F1587E16299 /* Pods_EasyMoney.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00E8A057A9DBE957C786C2D6 /* Pods_EasyMoney.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00E8A057A9DBE957C786C2D6 /* Pods_EasyMoney.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyMoney.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21289A1A48031FC114E0407C /* Pods-EasyMoney.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyMoney.release.xcconfig"; path = "Pods/Target Support Files/Pods-EasyMoney/Pods-EasyMoney.release.xcconfig"; sourceTree = "<group>"; };
+		427392FE20877CD700977FA7 /* EasyMoney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyMoney.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4273930120877CD700977FA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4273930320877CD700977FA7 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		4273930620877CD700977FA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4273930820877CD800977FA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4273930B20877CD800977FA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4273930D20877CD800977FA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		427393152087985D00977FA7 /* EasyMoney-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EasyMoney-Bridging-Header.h"; sourceTree = "<group>"; };
+		427393162087985E00977FA7 /* MBCircularProgressBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBCircularProgressBarView.m; sourceTree = "<group>"; };
+		427393172087985E00977FA7 /* MBCircularProgressBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBCircularProgressBarView.h; sourceTree = "<group>"; };
+		427393182087985E00977FA7 /* MBCircularProgressBarLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBCircularProgressBarLayer.h; sourceTree = "<group>"; };
+		427393192087985E00977FA7 /* MBCircularProgressBarLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBCircularProgressBarLayer.m; sourceTree = "<group>"; };
+		4273931D2087A75700977FA7 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		427A8D2220DD379600347FF9 /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		42F5332E209F4038009D9CE1 /* BorderedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderedButton.swift; sourceTree = "<group>"; };
+		42F53331209F42AF009D9CE1 /* MonthlyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyViewController.swift; sourceTree = "<group>"; };
+		42F53333209F42C2009D9CE1 /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		42F53335209F42D1009D9CE1 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		42F53337209F4917009D9CE1 /* NewTransactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTransactionViewController.swift; sourceTree = "<group>"; };
+		8239B75B8013ED7445104FE9 /* Pods-EasyMoney.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyMoney.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EasyMoney/Pods-EasyMoney.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		427392FB20877CD700977FA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEC37A9FD3885F1587E16299 /* Pods_EasyMoney.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		427392F520877CD700977FA7 = {
+			isa = PBXGroup;
+			children = (
+				4273930020877CD700977FA7 /* EasyMoney */,
+				427392FF20877CD700977FA7 /* Products */,
+				86106A554DDBA2FDEB22B8B8 /* Pods */,
+				6CFE36B103ED353251533FB9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		427392FF20877CD700977FA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				427392FE20877CD700977FA7 /* EasyMoney.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4273930020877CD700977FA7 /* EasyMoney */ = {
+			isa = PBXGroup;
+			children = (
+				427A8D2120DD35CB00347FF9 /* Model */,
+				42F53330209F422F009D9CE1 /* ViewController */,
+				427393132087983D00977FA7 /* Libs */,
+				4273930120877CD700977FA7 /* AppDelegate.swift */,
+				4273930520877CD700977FA7 /* Main.storyboard */,
+				4273930820877CD800977FA7 /* Assets.xcassets */,
+				4273930A20877CD800977FA7 /* LaunchScreen.storyboard */,
+				4273930D20877CD800977FA7 /* Info.plist */,
+			);
+			path = EasyMoney;
+			sourceTree = "<group>";
+		};
+		427393132087983D00977FA7 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				4273931C2087A73A00977FA7 /* CustomView */,
+				427393142087984E00977FA7 /* MBCircularProgressBar */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		427393142087984E00977FA7 /* MBCircularProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				427393182087985E00977FA7 /* MBCircularProgressBarLayer.h */,
+				427393192087985E00977FA7 /* MBCircularProgressBarLayer.m */,
+				427393172087985E00977FA7 /* MBCircularProgressBarView.h */,
+				427393162087985E00977FA7 /* MBCircularProgressBarView.m */,
+				427393152087985D00977FA7 /* EasyMoney-Bridging-Header.h */,
+			);
+			path = MBCircularProgressBar;
+			sourceTree = "<group>";
+		};
+		4273931C2087A73A00977FA7 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				4273931D2087A75700977FA7 /* GradientView.swift */,
+				42F5332E209F4038009D9CE1 /* BorderedButton.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		427A8D2120DD35CB00347FF9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				427A8D2220DD379600347FF9 /* BaseModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		42F53330209F422F009D9CE1 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4273930320877CD700977FA7 /* MainViewController.swift */,
+				42F53331209F42AF009D9CE1 /* MonthlyViewController.swift */,
+				42F53333209F42C2009D9CE1 /* UserProfileViewController.swift */,
+				42F53335209F42D1009D9CE1 /* SettingsViewController.swift */,
+				42F53337209F4917009D9CE1 /* NewTransactionViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		6CFE36B103ED353251533FB9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00E8A057A9DBE957C786C2D6 /* Pods_EasyMoney.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		86106A554DDBA2FDEB22B8B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8239B75B8013ED7445104FE9 /* Pods-EasyMoney.debug.xcconfig */,
+				21289A1A48031FC114E0407C /* Pods-EasyMoney.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		427392FD20877CD700977FA7 /* EasyMoney */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4273931020877CD800977FA7 /* Build configuration list for PBXNativeTarget "EasyMoney" */;
+			buildPhases = (
+				23F59EFB6C62C9804FB1921D /* [CP] Check Pods Manifest.lock */,
+				427392FA20877CD700977FA7 /* Sources */,
+				427392FB20877CD700977FA7 /* Frameworks */,
+				427392FC20877CD700977FA7 /* Resources */,
+				442202447E96039EA8492AFB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyMoney;
+			productName = EasyMoney;
+			productReference = 427392FE20877CD700977FA7 /* EasyMoney.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		427392F620877CD700977FA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Nghia Nguyen";
+				TargetAttributes = {
+					427392FD20877CD700977FA7 = {
+						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
+					};
+				};
+			};
+			buildConfigurationList = 427392F920877CD700977FA7 /* Build configuration list for PBXProject "EasyMoney" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 427392F520877CD700977FA7;
+			productRefGroup = 427392FF20877CD700977FA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				427392FD20877CD700977FA7 /* EasyMoney */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		427392FC20877CD700977FA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4273930C20877CD800977FA7 /* LaunchScreen.storyboard in Resources */,
+				4273930920877CD800977FA7 /* Assets.xcassets in Resources */,
+				4273930720877CD700977FA7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		23F59EFB6C62C9804FB1921D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EasyMoney-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		442202447E96039EA8492AFB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EasyMoney/Pods-EasyMoney-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DLRadioButton/DLRadioButton.framework",
+				"${BUILT_PRODUCTS_DIR}/JVFloatLabeledTextField/JVFloatLabeledTextField.framework",
+				"${BUILT_PRODUCTS_DIR}/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DLRadioButton.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JVFloatLabeledTextField.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RAMAnimatedTabBarController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EasyMoney/Pods-EasyMoney-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		427392FA20877CD700977FA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42F53332209F42AF009D9CE1 /* MonthlyViewController.swift in Sources */,
+				42F53334209F42C2009D9CE1 /* UserProfileViewController.swift in Sources */,
+				427A8D2320DD379600347FF9 /* BaseModel.swift in Sources */,
+				4273930420877CD700977FA7 /* MainViewController.swift in Sources */,
+				4273930220877CD700977FA7 /* AppDelegate.swift in Sources */,
+				42F53338209F4917009D9CE1 /* NewTransactionViewController.swift in Sources */,
+				42F5332F209F4038009D9CE1 /* BorderedButton.swift in Sources */,
+				4273931E2087A75700977FA7 /* GradientView.swift in Sources */,
+				4273931B2087985E00977FA7 /* MBCircularProgressBarLayer.m in Sources */,
+				4273931A2087985E00977FA7 /* MBCircularProgressBarView.m in Sources */,
+				42F53336209F42D1009D9CE1 /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4273930520877CD700977FA7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4273930620877CD700977FA7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4273930A20877CD800977FA7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4273930B20877CD800977FA7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4273930E20877CD800977FA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4273930F20877CD800977FA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4273931120877CD800977FA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8239B75B8013ED7445104FE9 /* Pods-EasyMoney.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9R6APF66GF;
+				INFOPLIST_FILE = EasyMoney/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.quangnghiadev.EasyMoney;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "EasyMoney/Libs/MBCircularProgressBar/EasyMoney-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4273931220877CD800977FA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21289A1A48031FC114E0407C /* Pods-EasyMoney.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9R6APF66GF;
+				INFOPLIST_FILE = EasyMoney/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.quangnghiadev.EasyMoney;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "EasyMoney/Libs/MBCircularProgressBar/EasyMoney-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		427392F920877CD700977FA7 /* Build configuration list for PBXProject "EasyMoney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4273930E20877CD800977FA7 /* Debug */,
+				4273930F20877CD800977FA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4273931020877CD800977FA7 /* Build configuration list for PBXNativeTarget "EasyMoney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4273931120877CD800977FA7 /* Debug */,
+				4273931220877CD800977FA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 427392F620877CD700977FA7 /* Project object */;
+}
